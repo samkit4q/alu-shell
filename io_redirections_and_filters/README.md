@@ -1,2 +1,1 @@
-#!/bin/bash
-samuel 
+"my name is samuel"
