@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
-# To display "Best School" 10 times
-for  (( i=0; i<10; i++ )) 
+#print multiples 10
+count=0
+while [ $count -lt 10 ]
 do
-	  echo "Best School"
+	echo "Best School"
+	((count++))
 done
