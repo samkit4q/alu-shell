@@ -8,9 +8,6 @@ echo "$!" > /var/run/my_process.pid
 }
 
 stop() {
-#kill manage_my_process
-pkill -f ./manage_my_process
-rm /var/run/my_process.pid
 }
 
 case "$1" in
@@ -30,3 +27,4 @@ echo "manage_my_process restarted"
 *)
 echo "Usage: manage_my_process {start|stop|restart}"
 ;;
+esac
