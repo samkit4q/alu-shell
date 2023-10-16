@@ -7,7 +7,7 @@ start() {
 echo "$!" > /var/run/my_process.pid
 }
 
-stop
+stop() {
 #kill manage_my_process
 pkill -f ./manage_my_process
 rm /var/run/my_process.pid
